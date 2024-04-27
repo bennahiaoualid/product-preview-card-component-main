@@ -43,6 +43,7 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 @media (min-width:750px) {
     .card{
@@ -128,6 +129,9 @@ body {
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+}
+.card button:hover{
+    background-color:hsla(158, 36%, 37%,0.7) ;
 }
 
 .card button img{
